@@ -1,0 +1,36 @@
+def sum():
+  a=int(input("Enter 1st No:"))
+  b=int(input("Enter 2nd No:"))
+  return a+b
+
+def sub():
+  a=int(input("Enter 1st No:"))
+  b=int(input("Enter 2nd No:"))
+  return a-b
+
+def mul():
+  a=int(input("Enter 1st No:"))
+  b=int(input("Enter 2nd No:"))
+  return a*b
+
+def div():
+  a=int(input("Enter 1st No:"))
+  b=int(input("Enter 2nd No:2"))
+  return a/b
+
+print("Enter 1(sum)/2(sub)/3(mul)/4(div)")
+
+i=int(input("choice :"))
+if (i==1):
+      print(sum())
+elif (i==2):
+      print(sub())
+elif (i==3):
+      print(mul())
+elif (i==4):
+      print(div())
+elif (i==5):
+      print("Thank You")
+      exit()
+else:
+      print("invalid choice try again")
